@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <h1>GitHub User Card</h1>
         <User />
+      <h2>Followers: </h2>
         <Followers />
     </div>
   );

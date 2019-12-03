@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FollowersCard = ({ followers, img }) => {
+const FollowersCard = ({ followers, img}) => {
   return (
     <div className='card'>
       <img src={img} alt='user' />
