@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
+import axios from 'axios';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Identity theft is not a joke Jim!
-        </p>
-      </header>
+      <h1>GitHub User Card</h1>
+        <UserCard  />
+        <Followers />
     </div>
   );
 }
